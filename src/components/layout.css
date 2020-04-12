@@ -621,13 +621,24 @@ pre tt:after {
   }
 }
 
-.layout {
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
+p,
+a,
+span,
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-main {
-  flex: 1;
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+h2,
+h3,
+h4 {
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: none;
+  cursor: pointer;
 }

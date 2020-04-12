@@ -1,0 +1,22 @@
+.layout {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding: 3rem;
+  flex: 1;
+}
+
+.footer {
+  padding: 1rem;
+  background: #dbdada;
+  background: #808080;
+}
+
+.footer,
+.footer a {
+  color: #dbdada;
+}

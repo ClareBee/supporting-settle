@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-image: url("../images/settle_banner.png");
+  background-size: cover;
+}
+
+.heading {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1rem 2.5rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.heading a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d2d2d;
+}

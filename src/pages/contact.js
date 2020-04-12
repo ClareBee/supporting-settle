@@ -1,11 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Contact = () => (
-  <Layout>
+  <>
     <SEO title="Contact" />
 
     <form method="post" netlify-honeypot="bot-field" data-netlify="true">
@@ -31,7 +29,7 @@ const Contact = () => (
       <input type="reset" value="Clear" />
     </form>
     <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  </>
 )
 
 export default Contact

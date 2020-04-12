@@ -1,10 +1,11 @@
 import React from "react"
 import SEO from "../components/seo"
+import Heading from "../components/heading"
 
 const NotFoundPage = () => (
   <>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
+    <Heading heading="404: Not Found" />
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
   </>
 )

@@ -1,19 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
+import Heading from "../components/heading"
+import ProducerList from "../components/producer-list"
 
 const Producers = ({ data }) => (
   <>
     <SEO title="Local Producers" />
-    <h2>{data.allMarkdownRemark.totalCount} Local Producers</h2>
-    {data.allMarkdownRemark.edges.map(({ node }) => (
-      <div key={node.id}>
-        <Link to={node.fields.slug}>
-          <h3>{node.frontmatter.title}</h3>
-          <p>{node.excerpt}</p>
-        </Link>
-      </div>
-    ))}
+    <Heading heading="Local Producers" />
+    <ProducerList data={data} />
   </>
 )
 

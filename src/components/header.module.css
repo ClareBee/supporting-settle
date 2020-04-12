@@ -3,31 +3,41 @@
   top: 0;
   left: 0;
   font-size: 2rem;
-  margin: 3rem 2rem;
-  background: rgba(255, 255, 255, 0.8);
+  margin: 1.5rem;
+  background: rgba(255, 255, 255, 0.85);
   padding: 0.75rem;
   border-radius: 3px;
 }
 
 .home a {
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: column;
   align-items: center;
 }
+
 .menu {
   position: absolute;
   top: 0;
   right: 0;
   font-size: 2rem;
-  margin: 3rem 2rem;
-  background: rgba(255, 255, 255, 0.8);
+  margin: 1.5rem;
+  background: rgba(255, 255, 255, 0.85);
   padding: 0.75rem;
   border-radius: 3px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: column;
   align-items: center;
 }
-
+.home:hover,
+.menu:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+@media only screen and (max-width: 767px) {
+  .menu,
+  .home {
+    position: fixed;
+  }
+}
 .headerLabel {
   font-size: 1rem;
 }
@@ -37,8 +47,11 @@
   justify-content: center;
   align-items: center;
   padding: 3rem;
-  background-image: url("../images/settle_banner.png");
+  padding-bottom: 0rem;
+  background-image: url("../images/curved.png");
+  background-position: 0px -80px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .heading {
@@ -53,6 +66,8 @@
   font-size: 2.5rem;
   font-weight: bold;
   color: #2d2d2d;
+  letter-spacing: 4px;
+
   transition: all 0.2s ease-in-out;
 }
 
@@ -63,12 +78,13 @@
 .blurb {
   width: 75%;
   background: rgba(255, 255, 255, 0.9);
-  padding: 1rem 2.5rem;
+  padding: 2rem 2.5rem;
+  padding-bottom: 1rem;
   text-align: center;
   border: 5px solid #44a1a0;
   border-radius: 3px;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .blurb a {

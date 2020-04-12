@@ -27,7 +27,21 @@ const Layout = ({ children, location: pathname }) => {
         <p>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.gatsbyjs.org"
+          >
+            Gatsby
+          </a>{" "}
+          by{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://clarebee.com"
+          >
+            ClareBee
+          </a>
         </p>
         <Link to="/contact"> Get in touch</Link>
       </footer>

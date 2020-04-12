@@ -3,6 +3,13 @@ module.exports = {
     title: `Supporting Settle`,
     description: `Local Producers near Settle, North Yorkshire.`,
     author: `@gatsbyjs`,
+    keywords: [
+      "produce",
+      "local producers",
+      "Settle",
+      "online shopping",
+      "deliveries",
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

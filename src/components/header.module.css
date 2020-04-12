@@ -1,5 +1,39 @@
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2rem;
+  margin: 3rem 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.75rem;
+  border-radius: 3px;
+}
+
+.home a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  margin: 3rem 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.75rem;
+  border-radius: 3px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.headerLabel {
+  font-size: 1rem;
+}
 .header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 3rem;
@@ -12,10 +46,31 @@
   padding: 1rem 2.5rem;
   border-radius: 3px;
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 .heading a {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #2d2d2d;
+  transition: all 0.2s ease-in-out;
+}
+
+.heading a:hover {
+  color: #0d5c63;
+}
+
+.blurb {
+  width: 75%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem 2.5rem;
+  text-align: center;
+  border: 5px solid #44a1a0;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.blurb a {
+  color: #0d5c63;
 }

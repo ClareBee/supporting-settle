@@ -6,7 +6,8 @@ module.exports = {
     url: "https://supporting-settle.netlify.com",
     siteUrl: "https://supporting-settle.netlify.com",
     siteLanguage: `en`,
-    image: `https//supporting-settle.netlify.com/icon.png`,
+    image:
+      "https://res.cloudinary.com/dzrzdjaoe/image/upload/v1586795398/fullsizeoutput_449_bko6p2.jpg",
     keywords: [
       "produce",
       "local producers",

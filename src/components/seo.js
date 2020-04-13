@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, image: metaImage, title, author }) {
+function SEO({ description, lang, meta, image, title, author }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -29,10 +29,10 @@ function SEO({ description, lang, meta, image: metaImage, title, author }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const image =
-    metaImage && metaImage.src
-      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
-      : null
+  // const image =
+  //   metaImage && metaImage.src
+  //     ? `${site.siteMetadata.siteUrl}${metaImage.src}`
+  //     : image
   return (
     <Helmet
       htmlAttributes={{
@@ -78,58 +78,18 @@ function SEO({ description, lang, meta, image: metaImage, title, author }) {
           content: metaDescription,
         },
       ]
-        .concat(
-          metaImage
-            ? [
-                {
-                  property: "og:image",
-                  content: image,
-                },
-                {
-                  property: "og:image:width",
-                  content: metaImage.width,
-                },
-                {
-                  property: "og:image:height",
-                  content: metaImage.height,
-                },
-                {
-                  name: "twitter:card",
-                  content: "summary_large_image",
-                },
-                {
-                  name: "twitter:image",
-                  content: image,
-                },
-              ]
-            : [
-                {
-                  name: "twitter:card",
-                  content: "summary",
-                },
-              ]
-        )
+        .concat([
+          {
+            name: "twitter:card",
+            content: "summary",
+          },
+          {
+            name: "twitter:image",
+            content: image,
+          },
+        ])
         .concat(meta)}
-    >
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="/apple-touch-icon.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/favicon-32x32.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/favicon-16x16.png"
-      />
-      <link rel="manifest" href="/site.webmanifest" />
-    </Helmet>
+    />
   )
 }
 

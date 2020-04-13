@@ -3,7 +3,8 @@ module.exports = {
     title: `Supporting Settle`,
     description: `Local Producers near Settle, North Yorkshire.`,
     author: `@clarie_bee`,
-    url: `https://supporting-settle.netlify.com`,
+    url: "https://supporting-settle.netlify.com",
+    siteUrl: "https://supporting-settle.netlify.com",
     siteLanguage: `en`,
     image: `https//supporting-settle.netlify.com/icon.png`,
     keywords: [
@@ -60,12 +61,11 @@ module.exports = {
       options: {
         name: `supporting settle`,
         short_name: `supporting settle`,
-        start_url: "https://supporting-settle.netlify.com",
-        description: `Local producers keeping Settle running during covid-19`,
-        lang: `en`,
+        start_url: "/",
+        description: `Local producers keeping Settle running during corona virus`,
         background_color: `#44a1a0`,
         theme_color: `#44a1a0`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/icon.png`,
         icons: [
           {

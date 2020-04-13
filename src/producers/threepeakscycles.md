@@ -8,9 +8,9 @@ tel: "01729 824232"
 tags: ["cycle repair"]
 ---
 
-<p>
+
 Cycle shop. Ring to book a repair or to arrange an appointment. Click and collect for locals. Not open for browsing.
-</p>
+
 <blockquote>
 "If you live within a 5 mile radius of Settle, Giggleswick or Langcliffe and your bike needs repairs we are happy to collect it from you at no extra charge."
 </blockquote>

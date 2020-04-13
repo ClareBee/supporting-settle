@@ -15,7 +15,14 @@ export default ({ data }) => {
   console.log(producer)
   return (
     <div className={styles.producerList}>
-      <h1>{title}</h1>
+      <div className={styles.heading}>
+        <h1>{title}</h1>
+        <div>
+          {tags.map(tag => (
+            <span className={styles.tag}>{tag}</span>
+          ))}
+        </div>
+      </div>
       <ul className={styles.contactList}>
         <li>
           <span>Tel: </span> <a href={`tel:${tel}`}>{tel}</a>

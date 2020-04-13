@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql } from "gatsby"
 import SEO from "../components/seo"
-import Heading from "../components/heading"
-import ProducerList from "../components/producer-list"
+import Heading from "../components/heading/heading"
+import ProducerList from "../components/producer-list/producer-list"
 
 const Producers = ({ data }) => (
   <>

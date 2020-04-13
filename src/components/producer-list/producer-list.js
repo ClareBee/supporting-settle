@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styles from "./producer-list.module.css"
-import Producer from "./producer"
+import Producer from "../producer/producer"
 
 const ProducerList = ({ data }) => (
   <div className={styles.producerList}>

@@ -70,3 +70,12 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
+
+@media only screen and (max-width: 400px) {
+  .menuDrawer {
+    width: 90%;
+  }
+  .menuList li {
+    margin: 1rem 0;
+  }
+}

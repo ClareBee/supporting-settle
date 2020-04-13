@@ -1,7 +1,7 @@
 ---
 title: "Lay of the Land"
 date: "2020-03-10"
-website: "http://www.layoftheland.co.uk/"
+website: "http://www.layoftheland.co.uk"
 address: "Kings Mill Lane, Settle BD24 9BS"
 openingHours: "9am - 5pm"
 tel: "01729 824247"

@@ -1,7 +1,7 @@
 ---
 title: "The Courtyard Dairy"
 date: "2020-03-11"
-website: "https://www.thecourtyarddairy.co.uk/"
+website: "https://www.thecourtyarddairy.co.uk"
 address: "Crows Nest Barn,
 (The Former Falconry Centre),
 Austwick, Nr. Settle, LA2 8AS"

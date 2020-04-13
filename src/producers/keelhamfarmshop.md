@@ -1,8 +1,9 @@
 ---
 title: "Keelham Farm Shop"
 date: "2020-03-10"
-website: "https://keelhamfarmshop.co.uk/"
+website: "https://keelhamfarmshop.co.uk"
 address: "Gargrave Road, Skipton, North Yorkshire, BD23 1UD"
+openingHours: "8am - 6pm"
 tel: "01756 664170"
 tags: ["groceries"]
 ---

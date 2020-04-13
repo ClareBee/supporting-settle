@@ -1,8 +1,9 @@
 ---
 title: "Drake and Macefield"
 date: "2020-03-10"
-website: "https://drakeandmacefield.co.uk/"
+website: "https://drakeandmacefield.co.uk"
 address: "Market Place, Settle, North Yorkshire BD24 9EJ"
+openingHours: "9am - 2pm"
 tel: "01729 822392"
 tags: ["meat", "pies"]
 ---

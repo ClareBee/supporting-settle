@@ -35,7 +35,13 @@ export default ({ data }) => {
         </li>
         <li>
           <span>Website: </span>
-          <a href={website}>{website}</a>
+          {website === "n/a" ? (
+            "n/a"
+          ) : (
+            <a href={website} target="_blank" rel="noopener noreferrer">
+              {website}
+            </a>
+          )}
         </li>
       </ul>
       <div

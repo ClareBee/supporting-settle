@@ -1,10 +1,13 @@
 ---
 title: "Chris Eccleston, Milkman"
 date: "2020-03-10"
-website: "https://keelhamfarmshop.co.uk/"
-address: ""
-tel: ""
+website: "n/a"
+address: "n/a"
+openingHours: "n/a"
+tel: "01729825567, 07801416316"
 tags: ["milk", "dairy"]
 ---
 
-Local Milkman providing doorstep deliver of milk, eggs, yoghuts, orange juice.
+Local Milkman providing doorstep delivery of milk, eggs, yoghurts, orange juice.
+
+Email at <a href="mailto:cecclestons@gmail.com">cecclestons@gmail.com</a>

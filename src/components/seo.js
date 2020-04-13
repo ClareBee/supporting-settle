@@ -62,12 +62,16 @@ function SEO({ description, lang, meta, image, title, author }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: site.siteMetadata.image,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
         {
           name: `twitter:creator`,
-          content: site.metaData.author,
+          content: site.siteMetadata.author,
         },
         {
           name: `twitter:title`,
@@ -75,7 +79,7 @@ function SEO({ description, lang, meta, image, title, author }) {
         },
         {
           name: `twitter:description`,
-          content: site.metaData.description,
+          content: site.siteMetadata.description,
         },
         {
           name: "twitter:card",
@@ -83,7 +87,7 @@ function SEO({ description, lang, meta, image, title, author }) {
         },
         {
           name: "twitter:image",
-          content: site.metaData.image,
+          content: site.siteMetadata.image,
         },
       ]}
     />

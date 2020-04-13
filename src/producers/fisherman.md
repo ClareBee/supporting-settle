@@ -1,7 +1,7 @@
 ---
 title: "The Fisherman Fish & Chips"
 date: "2020-03-10"
-website: "https://www.facebook.com/pages/category/Seafood-Restaurant/The-Fisherman-942274632472655/"
+website: "https://www.facebook.com/pages/category/Seafood-Restaurant/The-Fisherman-942274632472655"
 address: "16 Church St, Settle BD24 9JE"
 openingHours: "11.30am - 9pm"
 tel: "01729 823297"

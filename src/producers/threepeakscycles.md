@@ -1,7 +1,7 @@
 ---
 title: "3 Peaks Cycles"
 date: "2020-03-10"
-website: "https://www.3peakscycles.com/"
+website: "https://www.3peakscycles.com"
 address: "3 Peaks Cycles, Market Place, Settle, BD24 9EJ"
 openingHours: "10am - 2pm, Mon - Sat"
 tel: "01729 824232"

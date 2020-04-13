@@ -50,4 +50,8 @@ iframe {
     flex-direction: column;
     margin-bottom: 1rem;
   }
+  .tag {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
 }

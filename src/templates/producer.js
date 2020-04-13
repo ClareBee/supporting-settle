@@ -12,7 +12,6 @@ export default ({ data }) => {
     website,
     tags,
   } = producer.frontmatter
-  console.log(producer)
   return (
     <div className={styles.producerList}>
       <div className={styles.heading}>

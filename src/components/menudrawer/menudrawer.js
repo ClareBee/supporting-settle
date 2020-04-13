@@ -14,10 +14,16 @@ const MenuDrawer = ({ toggleMenu, menuIsOpen }) => {
           className={styles.button}
           aria-label={labelText}
           onClick={() => toggleMenu()}
+          onKeyDown={() => toggleMenu()}
         >
           &times;
         </button>
-        <ul className={styles.menuList} onClick={() => toggleMenu()}>
+        <ul
+          className={styles.menuList}
+          onClick={() => toggleMenu()}
+          onKeyDown={() => toggleMenu()}
+          role="button"
+        >
           <li>
             <Link to="/">home</Link>
           </li>
@@ -28,12 +34,18 @@ const MenuDrawer = ({ toggleMenu, menuIsOpen }) => {
             <Link to="/positive-inspiration#positivity">keep positive</Link>
           </li>
           <li>
-            <Link to="/contact#form">contact</Link>
+            <Link to="/contact">contact</Link>
           </li>
         </ul>
       </nav>
       {menuIsOpen && (
-        <div className={styles.menuBackdrop} onClick={() => toggleMenu()}></div>
+        <div
+          className={styles.menuBackdrop}
+          onClick={() => toggleMenu()}
+          onKeyDown={() => toggleMenu()}
+          role="button"
+          tabIndex={0}
+        ></div>
       )}
     </>
   )

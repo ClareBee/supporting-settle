@@ -2,16 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.css"
-import { AiOutlineHome, AiOutlineMenu } from "react-icons/ai"
-
-const Header = ({ siteTitle }) => (
+import Menu from "./Menu"
+const Header = ({ siteTitle, toggleMenu }) => (
   <header className={styles.header}>
-    {/* <div className={styles.home}>
-      <Link to="/">
-        <span className={styles.headerLabel}>HOME</span>
-        <AiOutlineHome />
-      </Link>
-    </div> */}
     <h1 className={styles.heading}>
       <Link to="/">{siteTitle}</Link>
     </h1>
@@ -31,10 +24,7 @@ const Header = ({ siteTitle }) => (
         </a>
       </p>
     </div>
-    <div className={styles.menu}>
-      <span className={styles.headerLabel}>MENU</span>
-      <AiOutlineMenu />
-    </div>
+    <Menu toggleMenu={toggleMenu} />
   </header>
 )
 

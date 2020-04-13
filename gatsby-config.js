@@ -63,27 +63,10 @@ module.exports = {
         short_name: `supporting settle`,
         start_url: "/",
         description: `Local producers keeping Settle running during corona virus`,
-        background_color: `#44a1a0`,
-        theme_color: `#44a1a0`,
+        background_color: `#44A1A0`,
+        theme_color: `#44A1A0`,
         display: `standalone`,
-        icon: `src/images/icon.png`,
-        icons: [
-          {
-            src: `/favicons/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/favicons/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-          {
-            src: `/favicons/apple-touch-icon.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ], // This path is relative to the root of the site.
+        icon: `src/static/icon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

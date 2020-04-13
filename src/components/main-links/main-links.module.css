@@ -43,7 +43,7 @@ a {
   font-size: 2.5rem;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .linkContainer {
     flex-direction: column;
     width: 100%;

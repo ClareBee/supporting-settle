@@ -23,13 +23,13 @@
 
 .tag {
   padding: 0.5rem 1rem;
-  margin: 0.5rem;
+  margin: 0.5rem 0.5rem 1rem 0rem;
   border-radius: 5px;
   color: #fff;
   background: #0d5c63;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .producer {
     padding: 1rem;
   }

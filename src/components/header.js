@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.css"
-import Menu from "./Menu"
+import Menu from "./menu"
 const Header = ({ siteTitle, toggleMenu }) => (
   <header className={styles.header}>
     <h1 className={styles.heading}>

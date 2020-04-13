@@ -26,6 +26,7 @@ const Layout = ({ children, location: pathname }) => {
       <Header
         siteTitle={data.site.siteMetadata.title}
         toggleMenu={toggleMenu}
+        pathname={pathname}
       />
       <MenuDrawer toggleMenu={toggleMenu} menuIsOpen={menuIsOpen} />
       <main className={styles.main}>

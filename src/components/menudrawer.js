@@ -17,7 +17,7 @@ const MenuDrawer = ({ toggleMenu, menuIsOpen }) => {
         >
           &times;
         </button>
-        <ul className={styles.menuList}>
+        <ul className={styles.menuList} onClick={() => toggleMenu()}>
           <li>
             <Link to="/">home</Link>
           </li>

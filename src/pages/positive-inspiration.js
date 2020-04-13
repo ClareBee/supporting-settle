@@ -1,11 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
 import SEO from "../components/seo"
+import Heading from "../components/heading"
+import PositiveList from "../components/positive-list"
 
 const Positive = () => (
   <>
     <SEO title="Positive Inspiration" />
-    <h1>Positive</h1>
+    <Heading heading="Positive Inspiration" />
+    <PositiveList />
   </>
 )
 

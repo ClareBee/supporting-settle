@@ -8,13 +8,7 @@ const Producers = ({ data }) => (
   <>
     <SEO title="Local Producers" />
     <Heading heading="Local Producers" />
-    <p>
-      Check to see if the business is open for deliveries only and please avoid
-      unnecessary trips where possible. Given things are changing day by day,
-      apologies if any of the info here is out of date.{" "}
-      <Link to="/contact">Get in touch</Link> if you have any
-      suggestions/corrections!
-    </p>
+
     <ProducerList data={data} />
   </>
 )
@@ -31,6 +25,7 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+            tags
           }
           fields {
             slug

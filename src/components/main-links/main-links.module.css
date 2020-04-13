@@ -46,10 +46,10 @@ a {
 @media only screen and (max-width: 420px) {
   .linkContainer {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
   }
   a {
-    width: 90%;
+    width: 95%;
     margin: 1rem;
   }
 }

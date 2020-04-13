@@ -1,6 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
-import Heading from "../components/heading"
+import Heading from "../components/heading/heading"
 
 const NotFoundPage = () => (
   <>

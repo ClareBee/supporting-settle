@@ -20,3 +20,20 @@
 .producerBody {
   font-weight: bold;
 }
+
+.tag {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  background: #0d5c63;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+iframe {
+  width: 100%;
+}

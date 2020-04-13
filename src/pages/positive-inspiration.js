@@ -1,7 +1,7 @@
 import React from "react"
 import SEO from "../components/seo"
-import Heading from "../components/heading"
-import PositiveList from "../components/positive-list"
+import Heading from "../components/heading/heading"
+import PositiveList from "../components/positive-list/positive-list"
 
 const Positive = () => (
   <>

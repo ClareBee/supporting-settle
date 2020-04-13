@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 import SEO from "../components/seo"
-import MainLinks from "../components/main-links"
+import MainLinks from "../components/main-links/main-links"
 
 const IndexPage = () => (
   <>

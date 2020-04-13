@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { AiOutlineMenu } from "react-icons/ai"
 import styles from "./menu.module.css"
 const Menu = ({ toggleMenu, menuIsOpen }) => {
@@ -14,7 +13,7 @@ const Menu = ({ toggleMenu, menuIsOpen }) => {
         onClick={handleToggleMenu}
         aria-label={labelText}
         aria-haspopup="true"
-        aria-expanded={`${menuIsOpen}`}
+        aria-expanded={menuIsOpen}
       >
         <span className={styles.menuLabel}>MENU</span>
         <AiOutlineMenu />

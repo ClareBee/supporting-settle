@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Supporting Settle`,
     description: `Local Producers near Settle, North Yorkshire.`,
-    author: `@gatsbyjs`,
+    author: `@clarie_bee`,
     keywords: [
       "produce",
       "local producers",
@@ -57,10 +57,29 @@ module.exports = {
         name: `supporting settle`,
         short_name: `supporting settle`,
         start_url: `/`,
+        description: `Local produces keeping Settle running during covid-19`,
+        lang: `en`,
         background_color: `#44a1a0`,
         theme_color: `#44a1a0`,
         display: `minimal-ui`,
-        icon: `src/images/android-chrome-192x192.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`,
+        icons: [
+          {
+            src: `/favicons/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/apple-touch-icon.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ], // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

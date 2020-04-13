@@ -19,6 +19,10 @@ export default function HTML(props) {
   heap.load("3012215096");`,
           }}
         />
+        <meta
+          name="google-site-verification"
+          content="LRg7YKPnytZA2LVl7lewh2NmxcM4XXWeUcjvGf74AKQ"
+        />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

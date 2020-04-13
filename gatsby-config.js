@@ -3,12 +3,16 @@ module.exports = {
     title: `Supporting Settle`,
     description: `Local Producers near Settle, North Yorkshire.`,
     author: `@clarie_bee`,
+    url: `https://supporting-settle.netlify.com`,
+    siteLanguage: `en`,
+    image: `https//supporting-settle.netlify.com/icon.png`,
     keywords: [
       "produce",
       "local producers",
       "Settle",
       "online shopping",
       "deliveries",
+      "covid-19",
     ],
   },
   plugins: [
@@ -56,7 +60,7 @@ module.exports = {
       options: {
         name: `supporting settle`,
         short_name: `supporting settle`,
-        start_url: `/`,
+        start_url: `https://supporting-settle.netlify.com`,
         description: `Local produces keeping Settle running during covid-19`,
         lang: `en`,
         background_color: `#44a1a0`,

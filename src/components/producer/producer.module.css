@@ -1,9 +1,10 @@
 .producer {
   padding: 1.5rem 1rem 1rem 2.5rem;
-  border: 2px solid #dbdada;
+  border: 1px solid #dbdada;
   border-radius: 3px;
   margin-bottom: 1rem;
   background: #f5f4f4;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .producerHead {

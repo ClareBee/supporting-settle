@@ -31,9 +31,24 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: "gatsby-plugin-layout",
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        layout: require.resolve(`./src/layouts/index.js`),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Montserrat`,
+            variants: [`400`],
+          },
+          {
+            family: `Work Sans`,
+            variants: [`400`, `700`],
+          },
+        ],
       },
     },
     {

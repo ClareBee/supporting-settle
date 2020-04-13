@@ -1,0 +1,38 @@
+.linkContainer {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  width: 360px;
+  height: 300px;
+  padding: 2rem 3.5rem;
+  border: 2px solid #dbdada;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  background: #dbdada;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  color: #2d2d2d;
+  text-align: center;
+}
+
+.link svg {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.link:hover,
+.link:active {
+  transform: scale(1.05);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.shoppingIcon {
+  font-size: 2.5rem;
+}

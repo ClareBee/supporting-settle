@@ -644,6 +644,8 @@ h4 {
 
 a {
   text-decoration: none;
+  margin: 0rem;
+  margin-left: 0rem !important;
   text-shadow: none;
   color: #0d5c63;
   cursor: pointer;

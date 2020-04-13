@@ -20,7 +20,7 @@ const Header = ({ siteTitle, toggleMenu }) => (
           rel="noopener noreferrer"
           href="https://www.settlevictoriahall.org.uk/communityresponse"
         >
-          Victoria Hall
+          Victoria Hall & the Settle Community Hub
         </a>
       </p>
     </div>

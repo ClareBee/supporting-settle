@@ -1,6 +1,30 @@
 .producer {
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 1rem 1rem 2.5rem;
   border: 2px solid #dbdada;
   border-radius: 3px;
   margin-bottom: 1rem;
+  background: #f5f4f4;
+}
+
+.producerHead {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.producerBody {
+  margin-top: 1rem;
+  padding-right: 1.5rem;
+}
+.readMore {
+  text-align: right;
+}
+
+.tag {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  background: #0d5c63;
 }

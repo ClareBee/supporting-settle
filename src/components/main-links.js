@@ -12,10 +12,7 @@ const MainLinks = () => (
         </div>
 
         <h3>Local Producers</h3>
-        <p>
-          Some local businesses doing online orders, collections and/or
-          deliveries.
-        </p>
+        <p>Online orders, collections and/or deliveries</p>
       </div>
     </Link>
     <Link to="/positive-inspiration">

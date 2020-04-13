@@ -51,7 +51,6 @@ const Layout = ({ children, location: pathname }) => {
             ClareBee
           </a>
         </p>
-        <Link to="/contact"> Get in touch</Link>
       </footer>
     </div>
   )

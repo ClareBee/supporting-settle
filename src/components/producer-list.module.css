@@ -2,3 +2,13 @@
   width: 55%;
   margin: 0 auto;
 }
+
+.producerBlurb {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.producerContact {
+  text-align: center;
+}

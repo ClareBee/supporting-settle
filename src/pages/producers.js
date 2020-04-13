@@ -8,6 +8,7 @@ const Producers = ({ data }) => (
   <>
     <SEO title="Local Producers" />
     <Heading heading="Local Producers" />
+
     <ProducerList data={data} />
   </>
 )
@@ -16,7 +17,7 @@ export default Producers
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: frontmatter___title }) {
       totalCount
       edges {
         node {
@@ -24,6 +25,7 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+            tags
           }
           fields {
             slug

@@ -4,7 +4,12 @@ import React from "react"
 import styles from "./header.module.css"
 import Menu from "../menu/menu"
 
-const matchingPaths = ["/", "/positive-inspiration/", "/positive-inspiration"]
+const matchingPaths = [
+  "/",
+  "/positive-inspiration/",
+  "/positive-inspiration",
+  "/contact",
+]
 const Header = ({ siteTitle, toggleMenu, pathname }) => (
   <header className={styles.header}>
     <h1 className={styles.heading}>

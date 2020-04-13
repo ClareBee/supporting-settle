@@ -10,7 +10,12 @@ const ContactForm = () => {
   return (
     <div className={styles.form}>
       {showForm && (
-        <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+        <form
+          method="post"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+          id="form"
+        >
           <p>
             Get in touch via email{" "}
             <a href="mailto:clarebee@protonmail.com">clarebee@protonmail.com</a>{" "}

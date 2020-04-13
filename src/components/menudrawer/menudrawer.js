@@ -25,10 +25,10 @@ const MenuDrawer = ({ toggleMenu, menuIsOpen }) => {
             <Link to="/producers">local producers</Link>
           </li>
           <li>
-            <Link to="/positive-inspiration">keep positive</Link>
+            <Link to="/positive-inspiration#positivity">keep positive</Link>
           </li>
           <li>
-            <Link to="/contact">contact</Link>
+            <Link to="/contact#form">contact</Link>
           </li>
         </ul>
       </nav>

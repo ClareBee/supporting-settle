@@ -3,7 +3,7 @@ import styles from "./positive-list.module.css"
 
 const PositiveList = () => {
   return (
-    <div className={styles.positiveList}>
+    <div className={styles.positiveList} id="positivity">
       <p>Under construction!</p>
       <p>
         In the meantime, check out the fantastic list of online entertainment on

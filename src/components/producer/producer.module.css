@@ -28,3 +28,16 @@
   color: #fff;
   background: #0d5c63;
 }
+
+@media only screen and (max-width: 400px) {
+  .producer {
+    padding: 1rem;
+  }
+  .producerHead {
+    flex-direction: column;
+  }
+  .tag {
+    padding: 0.5rem;
+    margin: 0 0.5rem 0.5rem 0;
+  }
+}

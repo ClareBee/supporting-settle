@@ -10,7 +10,9 @@ const Producer = ({ node }) => (
           <h3>{node.frontmatter.title}</h3>
           <div>
             {node.frontmatter.tags.map(tag => (
-              <span className={styles.tag}>{tag}</span>
+              <span key={tag} className={styles.tag}>
+                {tag}
+              </span>
             ))}
           </div>
         </div>

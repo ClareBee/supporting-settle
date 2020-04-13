@@ -15,7 +15,7 @@ const ProducerList = ({ data }) => (
       suggestions/corrections!
     </p>
     {data.allMarkdownRemark.edges.map(({ node }) => (
-      <Producer node={node} />
+      <Producer key={node.id} node={node} />
     ))}
   </div>
 )

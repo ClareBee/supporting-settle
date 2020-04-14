@@ -36,11 +36,7 @@ const ContactForm = () => {
           <textarea name="message" id="message" rows="5" required />
         </label>
         <div className={styles.btnContainer}>
-          <button
-            type="submit"
-            onClick={handleSubmit}
-            className={styles.submitBtn}
-          >
+          <button type="submit" className={styles.submitBtn}>
             Send
           </button>
           <input type="reset" value="Clear" className={styles.clearBtn} />

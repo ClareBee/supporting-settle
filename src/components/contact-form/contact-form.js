@@ -11,9 +11,9 @@ const ContactForm = () => {
     <div className={styles.form}>
       {showForm && (
         <form
-          method="post"
-          data-netlify-honeypot="bot-field"
-          data-netlify="true"
+          method="POST"
+          netlify-honeypot="bot-field"
+          netlify="true"
           name="contact"
         >
           <p>
@@ -21,7 +21,6 @@ const ContactForm = () => {
             <a href="mailto:clarebee@protonmail.com">clarebee@protonmail.com</a>{" "}
             or use the form below!
           </p>
-          <input type="hidden" name="form-name" value="contact" />
 
           <label>
             Name
@@ -29,15 +28,15 @@ const ContactForm = () => {
           </label>
           <label>
             Email
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
           </label>
           <label>
             Subject
-            <input type="text" name="subject" id="subject" />
+            <input type="text" name="subject" id="subject" required />
           </label>
           <label>
             Message
-            <textarea name="message" id="message" rows="5" />
+            <textarea name="message" id="message" rows="5" required />
           </label>
           <div className={styles.btnContainer}>
             <button

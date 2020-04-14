@@ -10,6 +10,13 @@
   flex: 1;
 }
 
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .footer {
   padding: 1rem 0rem 0rem 1rem;
   background: #808080;

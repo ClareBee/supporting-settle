@@ -9,7 +9,7 @@ const ContactForm = () => {
         data-netlify-honeypot="bot-field"
         data-netlify="true"
         name="contact"
-        action="/"
+        action="/thanks"
       >
         <input type="hidden" name="form-name" value="contact" />
 

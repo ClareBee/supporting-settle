@@ -67,6 +67,14 @@ export const positiveStuff = [
       "Join in with people spotting birds in their backgardens! Also on Twitter: https://twitter.com/SIBirdClub",
   },
   {
+    title: "Creative Boom Advice",
+    website:
+      "https://www.creativeboom.com/tips/keeping-the-spirits-up-during-lockdown-how-to-be-happy-in-isolation",
+    image: "",
+    description:
+      "Creative Boom is a UK-based online magazine and podcast, dedicated to artists, designers, illustrators, photographers and anyone working in visual arts and communications. ",
+  },
+  {
     title: "Cheryl Strayed talks to Margaret Atwood",
     website:
       "https://www.nytimes.com/2020/04/08/podcasts/sugar-calling-margaret-atwood-coronavirus.html",

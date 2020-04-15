@@ -27,12 +27,6 @@ export const positiveStuff = [
     description: "Fantastic list of online culture and entertainment",
   },
   {
-    title: "Victoria Hall's List of Silver Linings",
-    website: "https://www.settlevictoriahall.org.uk/silver-linings",
-    image: "",
-    description: "Fantastic list of online culture and entertainment",
-  },
-  {
     title: "Ramblers #RoamSweetHome",
     website: "https://www.ramblers.org.uk/go-walking/roam-sweet-home.aspx",
     image: "",

@@ -27,6 +27,19 @@ export const positiveStuff = [
     description: "Fantastic list of online culture and entertainment",
   },
   {
+    title: "Victoria Hall's List of Silver Linings",
+    website: "https://www.settlevictoriahall.org.uk/silver-linings",
+    image: "",
+    description: "Fantastic list of online culture and entertainment",
+  },
+  {
+    title: "Ramblers #RoamSweetHome",
+    website: "https://www.ramblers.org.uk/go-walking/roam-sweet-home.aspx",
+    image: "",
+    description:
+      "Sign up to a challenge to keep your step count up. Communities on Twitter, Facebook, & Instagram",
+  },
+  {
     title: "National Theatre at Home",
     website: "https://www.nationaltheatre.org.uk/",
     image: "",

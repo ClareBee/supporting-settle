@@ -7,6 +7,13 @@ export const positiveStuff = [
       "Free weekly newsletter bringing the outdoors indoors! Includes things to read, watch, & do, all related to nature.",
   },
   {
+    title: "Random Acts Of Kindness - Mental Health Foundation",
+    website: "https://www.mentalhealth.org.uk/coronavirus/random-acts-kindness",
+    image: "",
+    description:
+      "Ideas how to support friends and family with small acts of kindness. Also includes helpline details if you're finding things tough at the moment and need someone to talk to",
+  },
+  {
     title: "John Krasinski's Some Good News",
     website: "https://www.youtube.com/channel/UCOe_y6KKvS3PdIfb9q9pGug",
     image: "",
